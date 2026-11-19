@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Accessible web application starter project">
+    <title>Accessibility Audit Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <h1>Accessibility Audit Project</h1>
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>This is an accessible full-stack project starter.</p>
+            <button id="welcomeButton" type="button">
+                Click Me
+            </button>
+            <p id="message" aria-live="polite"></p>
+        </section>
+
+        <section id="about">
+            <h2>About This Project</h2>
+            <p>
+                This project demonstrates semantic HTML,
+                keyboard accessibility and maintainable code.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Accessibility Audit Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
